@@ -11,6 +11,7 @@ body {
 a {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: 'Wingdings';
 }
 
 p {
@@ -64,9 +65,10 @@ footer img {
 }
 
 .boxy-link:hover {
-  background-color: var(--accent-color);
-  color: var(--bg-color);
+  background-color: #ffffff;
+  color: #000000;
   transform: translateY(-3px);
+  font-family: Courier;
 }
 
 @keyframes fadeIn {
