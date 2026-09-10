@@ -6,6 +6,7 @@
 body {
   background-color: var(--bg-color);
   font-family: Verdana, Arial, sans-serif;
+  text-align: center;
 }
 
 a {
