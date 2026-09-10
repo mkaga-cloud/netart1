@@ -2,7 +2,7 @@
     font-family: 'Papyrus';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/papyrus-font/papyrus') format('TTF');
+    src: url('fonts/papyrus-font/papyrus.ttf') format('ttf');
 }
     
 @font-face {
