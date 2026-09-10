@@ -14,7 +14,18 @@ a {
   font-family: 'Wingdings';
 }
 
-p {
+p1 {
+  max-width: 50ch;
+  margin: 0 auto;
+  /* border: 1px dashed; */
+
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
+p2 {
   max-width: 50ch;
   margin: 0 auto;
   /* border: 1px dashed; */
