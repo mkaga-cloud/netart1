@@ -2,7 +2,7 @@
     font-family: 'Wingdings';
     font-style: normal;
     font-weight: normal;
-    src: local('Wingdings'), url('wingding.woff') format('woff');
+    src: local('Wingdings'), url('fonts/wingdings-webfont/wingding.woff') format('woff');
 }
 
 @font-face {
