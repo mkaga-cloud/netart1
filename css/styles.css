@@ -112,3 +112,14 @@ footer img {
     margin-top: 50px;
   }
 }
+
+#papyrus-paragraph {
+  max-width: 50ch;
+  margin: 0 auto;
+  font-family: 'Papyrus'
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+  
