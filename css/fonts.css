@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Wing Dings';
-  src: url('fonts/wingdings-webfont')
+  src: url('fonts/wingdings-webfont/winging.woff') format('woff');
 }
     
 @font-face {
