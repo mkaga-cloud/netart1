@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'Papyrus';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/papyrus-font/papyrus') format('TTF');
+}
+    
+@font-face {
     font-family: 'Wingdings';
     font-style: normal;
     font-weight: normal;
