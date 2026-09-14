@@ -96,10 +96,9 @@ footer img {
   margin-top: 150px;
   /* border: 1px dashed; */
   
-  font-family: 'Playfair Display';
+  font-family: 'Undertale-Logo';
   font-weight: 900;
   font-size: 48px;
-  font-style: italic;
   text-align: center;
   color: var(--accent-color);
 
