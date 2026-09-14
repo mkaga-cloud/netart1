@@ -9,7 +9,7 @@
     font-family: 'Comic Sans';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/Comic_Relief/ComicSans-Regular.ttf') format('ttf');
+    src: url('fonts/Comic_Relief/ComicSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
