@@ -24,6 +24,7 @@ p1 {
   font-size: 1.3rem;
   line-height: 1.7rem;
   text-align: center;
+  font-family: 'Comic Sans';
 }
 
 p2 {
@@ -117,10 +118,19 @@ footer img {
 #papyrus-paragraph {
   max-width: 50ch;
   margin: 0 auto;
-  font-family: 'Papyrus'
+  font-family: 'Papyrus';
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.7rem;
   text-align: center;
 }
-  
+
+#comic-sans-paragraph {
+  max-width: 50ch;
+  margin: 0 auto;
+  font-family: 'Comic Sans';
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
