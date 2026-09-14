@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'Undertale-Logo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/undertale.woff2/undertale.woff2') format('woff2');
+}
+    
+@font-face {
     font-family: 'Comic Sans';
     font-style: normal;
     font-weight: normal;
