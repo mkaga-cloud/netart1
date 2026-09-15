@@ -7,6 +7,7 @@ body {
   background-color: var(--bg-color);
   font-family: Verdana, Arial, sans-serif;
   text-align: center;
+  background-image: url('images/SansUndertale.png');
 }
 
 a {
@@ -134,33 +135,4 @@ footer img {
   font-size: 1.3rem;
   line-height: 1.7rem;
   text-align: left;
-}
-
-/* 1. Create a positioning context for the background layer */
-.Sans {
-  position: relative;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* Creates a localized stacking context so z-index works predictably */
-  isolation: isolate; 
-}
-
-/* 2. Generate the background layer using a pseudo-element */
-.Sans::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* Shorthand for top:0, right:0, bottom:0, left:0 */
-  
-  /* Apply your background styles here */
-  background-image: url('images/SansUndertale.png');
-  background-size: cover;
-  background-position: center;
-  
-  /* Adjust this value (0.0 to 1.0) to change opacity */
-  opacity: 0.6; 
-  
-  /* Pushes the pseudo-element background behind the text */
-  z-index: -1; 
 }
