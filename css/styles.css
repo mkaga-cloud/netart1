@@ -26,6 +26,8 @@ p1 {
   line-height: 1.7rem;
   text-align: left;
   font-family: 'Comic Sans';
+  background-image: url('images/sans-undertale.png')
+  background-repeat: no-repeat;
 }
 
 p2 {
