@@ -61,8 +61,7 @@ footer {
   bottom: 40px;
 
   display: flex;
-  text-align: center;
-  margin: auto 0;
+  justify-content: center;
 
   width: 100vw;
   /* border: 1px dashed; */
