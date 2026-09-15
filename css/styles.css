@@ -1,6 +1,6 @@
 :root {
-  --accent-color: #35748a;
-  --bg-color: #ecddd7;
+  --accent-color: #FE0000;
+  --bg-color: #BBCBEA;
 }
 
 body {
@@ -16,6 +16,7 @@ a {
 }
 
 p1 {
+/* comic sans paragraph */  
   max-width: 50ch;
   margin: 0 auto;
   /* border: 1px dashed; */
@@ -23,11 +24,12 @@ p1 {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.7rem;
-  text-align: center;
+  text-align: left;
   font-family: 'Comic Sans';
 }
 
 p2 {
+/* papyrus paragraph */  
   max-width: 50ch;
   margin: 0 auto;
   /* border: 1px dashed; */
@@ -35,7 +37,7 @@ p2 {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.7rem;
-  text-align: center;
+  text-align: right;
   font-family: Papyrus; 'Papyrus';
 }
 
@@ -59,7 +61,7 @@ footer {
   bottom: 40px;
 
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 
   width: 100vw;
   /* border: 1px dashed; */
@@ -121,7 +123,7 @@ footer img {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.7rem;
-  text-align: center;
+  text-align: right;
 }
 
 #comic-sans-paragraph {
@@ -131,5 +133,5 @@ footer img {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.7rem;
-  text-align: center;
+  text-align: left;
 }
