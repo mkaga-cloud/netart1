@@ -4,10 +4,9 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background: var(--bg-color) url('images/SansUndertale.png') no-repeat;
   font-family: Verdana, Arial, sans-serif;
   text-align: center;
-  background-image: url('images/SansUndertale.png');
 }
 
 a {
